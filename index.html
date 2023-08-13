@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidatura Simplificada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <main class="container p-4 my-5 align-items-center border rounded bg-white"
+        style="max-width: var(--bs-breakpoint-sm);">
+        <form class="row gy-4 gx-0" action="/application" method="post" enctype="multipart/form-data">
+            <h1 class="fs-3 fw-medium text-center">Candidatura Simplificada</h1>
+
+            <fieldset>
+                <legend class="visually-hidden">
+                    <h2>Dados de Contato</h2>
+                </legend>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="text" id="applicant-name" name="applicant-name" autofocus
+                        minlength="3" placeholder="Alex" required>
+                    <label for="applicant-name">Nome Completo</label>
+                </div>
+                <div class="form-floating">
+                    <input class="form-control" type="email" id="applicant-email" name="applicant-email"
+                        placeholder="password" required>
+                    <label for="applicant-name">Email de Contato</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h2 class="fs-4 fw-normal">Área de Atuação</h2>
+                </legend>
+
+                <div class="row px-4 row-cols-1 row-cols-sm-3">
+                    <div class="col form-check">
+                        <input class="form-check-input" type="radio" id="area-front" name="area" value="front-end"
+                            checked>
+                        <label class="form-check-label text-nowrap" for="area-front">Front-end</label>
+                    </div>
+                    <div class="col form-check">
+                        <input class="form-check-input" type="radio" id="area-back" name="area" value="back-end">
+                        <label class="form-check-label text-nowrap" for="area-back">Back-end</label>
+                    </div>
+                    <div class="col form-check">
+                        <input class="form-check-input" type="radio" id="area-games" name="area" value="games">
+                        <label class="form-check-label text-nowrap" for="area-games">Games</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h2 class="fs-4 fw-normal">Tecnologias Dominantes</h2>
+                </legend>
+
+                <div class="px-4 row row-cols-2 row-cols-sm-3">
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-HTML" value="HTML">
+                        <label class="form-check-label text-nowrap" for="tech-HTML">HTML</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-CSS" value="CSS">
+                        <label class="form-check-label text-nowrap" for="tech-CSS">CSS</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-JavaScript"
+                            value="JavaScript">
+                        <label class="form-check-label text-nowrap" for="tech-JavaScript">JavaScript</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Bootstrap"
+                            value="Bootstrap">
+                        <label class="form-check-label text-nowrap" for="tech-Bootstrap">Bootstrap</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Tailwindcss"
+                            value="Tailwindcss">
+                        <label class="form-check-label text-nowrap" for="tech-Tailwindcss">Tailwindcss</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Vue.JS"
+                            value="Vue.JS">
+                        <label class="form-check-label text-nowrap" for="tech-Vue.JS">Vue.JS</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-React"
+                            value="React">
+                        <label class="form-check-label text-nowrap" for="tech-React">React</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Go" value="Go">
+                        <label class="form-check-label text-nowrap" for="tech-Go">Go</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-gin" value="gin">
+                        <label class="form-check-label text-nowrap" for="tech-gin">gin</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Fiber"
+                            value="Fiber">
+                        <label class="form-check-label text-nowrap" for="tech-Fiber">Fiber</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Java" value="Java">
+                        <label class="form-check-label text-nowrap" for="tech-Java">Java</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Spring"
+                            value="Spring">
+                        <label class="form-check-label text-nowrap" for="tech-Spring">Spring</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Boot" value="Boot">
+                        <label class="form-check-label text-nowrap" for="tech-Boot">Boot</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Unity"
+                            value="Unity">
+                        <label class="form-check-label text-nowrap" for="tech-Unity">Unity</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Godot"
+                            value="Godot">
+                        <label class="form-check-label text-nowrap" for="tech-Godot">Godot</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-C#" value="C#">
+                        <label class="form-check-label text-nowrap" for="tech-C#">C#</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-.NET" value=".NET">
+                        <label class="form-check-label text-nowrap" for="tech-.NET">.NET</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-Unreal"
+                            value="Unreal">
+                        <label class="form-check-label text-nowrap" for="tech-Unreal">Unreal</label>
+                    </span>
+                    <span class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="technologies" id="tech-C++" value="C++">
+                        <label class="form-check-label text-nowrap" for="tech-C++">C++</label>
+                    </span>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h2 class="fs-4 fw-normal">Seu Currículo</h2>
+                </legend>
+
+                <div>
+                    <label class="form-label visually-hidden" for="applicant-cv">Seu Currículo</label>
+                    <input class="form-control" type="file" id="applicant-cv" name="applicant-cv" accept=".pdf"
+                        required>
+                </div>
+            </fieldset>
+
+            <div class="d-flex">
+                <button class="btn btn-primary flex-fill flex-sm-grow-0" type="submit">Enviar Candidatura</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
