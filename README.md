@@ -2,6 +2,8 @@
 
 Formulário de candidatura desenvolvido para estudo da tecnologia Bootstrap.
 
+[Acessível no Github Pages](https://d1360-64rc14.github.io/candidatura-simplificada/)
+
 <img src="media/screenshot.png" height="400">
 
 ## Detalhes Técnicos
