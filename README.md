@@ -8,6 +8,8 @@ Formulário de candidatura desenvolvido para estudo da tecnologia Bootstrap.
 
 O envio do formulário é realizado pelo método POST com corpo em formato `multipart/form-data`.
 
+> obs: atualmente o método está definido para GET porque o Github Pages não aceita POST
+
 Os valores enviados são:
 
 - `name`: nome completo do aplicante;
